@@ -27,14 +27,6 @@ function capitalize(word) {
 const titleCased = () => {
   return tutorials.map(str => {
     let newStr = str.split(' ');
-    return newStr.map((word,i) => {
-      let new_word="";
-      if(i===0) {
-        new_word += word[0].toUpperCase();
-      }
-      else {
-        new_word += word
-      }
-    })
+    return newStr.map(word => capitalize(word))
   })
 }

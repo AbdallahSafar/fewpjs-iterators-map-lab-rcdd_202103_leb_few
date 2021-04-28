@@ -32,3 +32,4 @@ const titleCased = () => {
 }
 
 console.log(titleCased());
+console.log("hello")

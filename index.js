@@ -30,3 +30,5 @@ const titleCased = () => {
     return newStr.map(word => capitalize(word))
   })
 }
+
+console.log(titleCased());
